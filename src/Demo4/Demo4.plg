@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Demo4.res" /d "_DEBUG" /d "_AFXDLL" "C:\code\Demo4\Demo4.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Demo4.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\code\Demo4\Demo4.cpp"
+"C:\code\Demo4\Demo4View.cpp"
+"C:\code\Demo4\GeometryTrans.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Demo4.pdb" /debug /machine:I386 /out:"Debug/Demo4.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\Demo4.obj
+.\Debug\Demo4Doc.obj
+.\Debug\Demo4View.obj
+.\Debug\GrayTrans.obj
+.\Debug\ImageDib.obj
+.\Debug\ImgSegment.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\Demo4.res
+.\Debug\RotateDlg.obj
+.\Debug\GeometryTrans.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Demo4View.cpp
+GeometryTrans.cpp
+C:\code\Demo4\GeometryTrans.cpp(411) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(412) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(443) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(449) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(483) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(608) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(655) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(679) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(698) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(698) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(746) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(822) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(823) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(843) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(843) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(883) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(884) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(887) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(945) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(947) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(949) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(956) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(958) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\code\Demo4\GeometryTrans.cpp(960) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Skipping... (no relevant changes detected)
+Demo4.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Demo4.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
